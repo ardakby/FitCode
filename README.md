@@ -1,24 +1,80 @@
-# FitCode
+# FitCode – Web Application (Frontend Contribution)
 
-**Proje Tanımı :** Bu uygulama, kullanıcıların sağlıklı beslenme alışkanlıkları kazanmasını ve günlük kalori takibini yapmasını sağlayan bir uygulamadır. Kullanıcılar kayıt olarak yaş, kilo ve boy gibi bilgilerini girer, böylece günlük kalori ihtiyaçları ve vücut kitle indeksleri hesaplanır. Uygulama, kişiye özel beslenme önerileri sunarak sağlıklı kilo kontrolüne yardımcı olur.Ayrıca, besinlerin kalori ve besin değerlerini içeren geniş bir veri tabanı bulunur. Kullanıcılar günlük su tüketimlerini takip edebilir, besinleri arayabilir ve diyet planlarını optimize edebilirler. Popüler makaleler ve yararlı içerikler sayesinde sağlıklı yaşam hakkında bilgi edinme fırsatı sunar.Kullanıcı dostu bir arayüz ile kolay kullanım sağlanırken, günlük ve haftalık ilerleme raporları motivasyonu artırır. Bu uygulama, sağlıklı beslenmek isteyen herkes için pratik bir rehber niteliğindedir.
+## Overview
+FitCode is a web-based health and nutrition tracking application developed as a team project.
 
-**Proje Kategorisi :** Sağlık ve Beslenme Teknolojisi
+The system allows users to register, calculate their Body Mass Index (BMI), estimate daily calorie needs, and track nutrition-related data. The application is designed to support healthy lifestyle management through user data input and personalized calculations.
 
-**Referans Uygulaması :** www.macfit.com 
+This repository represents my frontend implementation and integration work.
 
-**Uygulama Adresi :**
+---
 
-**Grup Adı :** BioSisters
+## My Role in the Project
+I was responsible for the frontend development of the application, including:
 
-**Proje Ekibi :** Tuğba GÜNDOĞDU, Elif DEDEOĞLU
+- Designing and implementing the user interface (HTML & CSS)
+- Developing client-side functionality using JavaScript
+- Implementing form handling and validation
+- Managing asynchronous communication with the backend (Fetch API)
+- Connecting the registration system to backend endpoints
 
-**[Gereksinimler](FitCode_Gereksinimler.md)**
+Backend architecture, requirement analysis, and system design were developed by other team members.
 
-**[Durum Diyagramı](Durum_Diyagramı.png)**
+---
 
-**[Tuğba Durum Senaryoları](Tugba_DurumSenaryoları.pdf)**
+## Technologies Used
+- HTML
+- CSS
+- JavaScript 
+- Fetch API
+- REST API Integration
 
-**[Elif Durum Senaryoları](Elif_DurumSenaryoları.pdf)**
+---
 
-**[Front-End](https://fitcode.online/)**
+## Core Features
+- User registration system
+- BMI and calorie-related calculations
+- Form validation
+- Backend-connected registration workflow
 
+---
+
+## Project Structure
+
+---
+
+backend/ → Backend services (team implementation)
+index.html → Main application page
+register.html → User registration interface
+register.js → Client-side form handling & API communication
+
+
+---
+
+## Technical Details
+
+- Separated HTML structure and JavaScript logic into different files.
+- Used JavaScript features such as async/await for API communication.
+- Integrated frontend forms with backend endpoints via POST requests.
+- Applied basic client-side validation before sending data to the server.
+- Designed a clean and user-friendly interface focused on usability.
+
+---
+
+## What I Learned
+
+Through this project, I gained hands-on experience in:
+
+- Building structured frontend applications
+- Connecting frontend to backend services
+- Handling asynchronous operations
+- Working in a team-based development environment
+- Managing project files using Git and GitHub
+
+---
+
+
+## Note
+
+This repository highlights my frontend contribution within the original team project.  
+Backend development and requirement analysis were completed by other team members.
